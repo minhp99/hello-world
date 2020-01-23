@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Nov 25, 2019 at 12:20 PM
+-- Generation Time: Nov 21, 2019 at 02:06 PM
 -- Server version: 10.4.6-MariaDB
 -- PHP Version: 7.3.9
 
@@ -27,37 +27,17 @@ USE `test1`;
 -- --------------------------------------------------------
 
 --
--- Table structure for table `cmdcv`
+-- Table structure for table `cmd`
 --
 
-CREATE TABLE `cmdcv` (
-  `mkdmc` varchar(11) NOT NULL
+CREATE TABLE `cmd` (
+  `mkdmc` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 --
 -- Database: `x`
 --
 CREATE DATABASE IF NOT EXISTS `x` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
 USE `x`;
-
--- --------------------------------------------------------
-
---
--- Table structure for table `c`
---
-
-CREATE TABLE `c` (
-  `m` varchar(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
--- --------------------------------------------------------
-
---
--- Table structure for table `d`
---
-
-CREATE TABLE `d` (
-  `v` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
